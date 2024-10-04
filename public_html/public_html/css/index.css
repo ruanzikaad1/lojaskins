@@ -1,0 +1,452 @@
+
+/*
+    BASE
+*/
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #090d11;
+}
+
+.jumbotron {
+    background-color: #f8f9fa;
+    border-radius: 5px;
+    padding: 20px;
+}
+.purple{
+    color: rgb(236, 49, 236);
+}
+.heading-title-desc{
+    padding: 20px;
+}
+
+footer {
+    margin-top: 20px;
+}
+.blue-color{
+    background-color: #00e5e5;
+}
+.base-button{
+    border-radius: 20px;
+    padding: 10px;
+    font-weight: bolder;
+}
+
+/* Estilo do container do Slideshow */
+.slideshow-container {
+    width: 100%; /* Garante que o container ocupe toda a largura */
+    position: relative; /* Mantém o posicionamento relativo */
+    margin: auto;
+    overflow: hidden; /* Previne que qualquer conteúdo excedente apareça */
+  }
+  
+  .mySlide img {
+    width: 100%; /* Faz a imagem preencher toda a largura do container */
+    height: auto; /* Mantém a proporção da altura correta */
+  }
+  
+  
+  /* Ocultar as imagens por padrão */
+  .mySlide {
+    display: none;
+  }
+  .navigation-bar{
+    height: 90px;
+  }
+  
+  /* Estilo das setas de navegação */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  .btn-add-cart{
+    background-color: #367ca1;
+    color: white;
+    width: 100%;
+    padding: 10px;
+    border-radius: 15px;
+  }
+  .price-venda{
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+  }
+  .card-text-name-item{
+    text-align: center;
+    font-size: 9pt;
+  }
+   .divider {
+    border-top: 1px solid rgb(131, 131, 131); /* Cria uma borda superior branca */
+    margin: 20px 0; /* Adiciona espaço antes e depois do divisor */
+}
+
+
+  .filter-section {
+    padding: 20px;
+    background-color: #0b1218;
+    color: white; /* Exemplo de cor de fundo */
+ }
+ .meuCarrinho{
+    color: #00ced4;
+
+ }
+ .meuCarrinho span{
+    color: #00ced4;
+    font-size: 30px;
+
+ }
+ 
+ .meuCarrinho svg{
+    color: #00ced4;
+     width: 40px;
+
+ }
+ .float-number{
+    color: grey;
+    font-size: 8pt;
+ }
+ #saldo-valor{
+    color: white;
+ }
+ .holder-inputs{
+    display: inline-block;
+    width: 100%;
+ }
+ .values-inputs{
+    border-radius: 20px;
+    width: 30%;
+    background-color: #0b1218;
+    border: 1px solid white; padding: 10px;
+    margin: 10px;
+    color: white;
+
+ }
+ .btn-add-to-cart:hover{
+    background-color: orange;
+    font-weight: bolder;
+ }
+ .card {
+    transition: transform 0.3s ease; /* Define a transição suave */
+}
+
+.card:hover {
+    transform: scale(1.2); /* Aplica o efeito de zoom suave */
+}
+
+ .btn-ok{
+    background-color: #0b1218;
+    width: 30%;
+    height: 90%;
+    color: #00ced4;
+    border: 1px solid #00ced4;
+    border-radius: 10px;
+    height: 50px;
+
+ }
+ .form-select{
+    background-color: #0b1218;
+    color: white;
+    border: white;
+ }
+ .filter-section h4{
+    font-size: 10pt;
+    font-weight: 100;
+    margin: 10px;
+    margin-top: 20px;
+ }
+ .product-section{
+    font-size: 80%;
+    color: #ff84ff;
+ }
+
+.product-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+.product-grid .card {
+    flex: 1 1 200px; /* Cards flexíveis com base na largura da coluna */
+    background-color: #2d404a;
+    color: white;
+}
+
+.color-selector button {
+    margin-right: 10px;
+}
+
+  .collapsed-design {
+    display: none; /* Começa oculto e será controlado pelo Bootstrap JS */
+     background: rgba(255, 255, 255, 0.15); /* Fundo semi-transparente */
+    backdrop-filter: blur(10px); /* Efeito de desfoque no fundo */
+    border: none; /* Remove a borda padrão do dropdown */
+    min-width: 800px; /* Ajuste conforme necessário para acomodar todas as 4 colunas */
+    width: 900px;
+
+}
+.text-menu-knife{
+    font-size: 9pt;
+}
+
+
+.dropdown-column {
+    flex: 25%; /* Cada coluna ocupa 25% do espaço */
+    display: flex; /* Mantém itens em flex */
+    flex-direction: column; /* Organiza os itens verticalmente */
+    padding: 5px; /* Espaçamento interno */
+}
+
+.dropdown-item {
+    white-space: nowrap; /* Evita a quebra de linha */
+    color: white; /* Cor do texto */
+    padding: 5px 0; /* Padding vertical para melhorar legibilidade */
+}
+.dropdown-menu.show {
+    display: flex; /* Só exibe quando aberto */
+}
+
+.dropdown-menu-user.show {
+    display: flex; /* Só exibe quando aberto */
+}
+
+/* Estilização personalizada para o menu dropdown */
+.custom-menu {
+    position: relative;
+}
+
+.custom-dropdown-toggle {
+    cursor: pointer;
+}
+
+/* O menu dropdown inicialmente invisível */
+.custom-dropdown-menu {
+    display: none; /* Não exibe o dropdown inicialmente */
+    position: absolute;
+    background-color: #333; /* Cor de fundo */
+    border-radius: 5px; /* Arredondamento dos cantos */
+    padding: 10px 0;
+    list-style-type: none;
+    min-width: 150px; /* Largura mínima */
+    z-index: 1000;
+}
+
+/* Itens do dropdown */
+.custom-dropdown-menu .custom-dropdown-item {
+    padding: 10px 20px;
+    color: white; /* Cor do texto */
+    text-decoration: none;
+    display: block;
+}
+
+.custom-dropdown-menu .custom-dropdown-item:hover {
+    background-color: #555; /* Efeito hover */
+}
+
+/* Exibir o dropdown ao passar o mouse */
+.custom-menu:hover .custom-dropdown-menu {
+    display: block; /* Exibe o dropdown quando o mouse está sobre o item do menu */
+}
+
+
+
+ 
+
+.nav-link img {
+    filter: drop-shadow(2px 2px 2px rgba(0,0,0,0.5)); /* Sombra para ícones */
+}
+
+  
+  /* Posição da seta "Próximo" */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* Posição da seta "Anterior" */
+  .prev {
+    left: 0;
+  }
+  
+  /* Adiciona uma cor de fundo ao passar o mouse */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  .main-content{
+    height: auto;
+  }
+ 
+  .product-card {
+    width: 20%;
+    height:  auto;
+    color: white;
+     text-align: center;
+    margin: 10px;
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    border: 0px;
+
+}
+.price-real{
+    font-size: 16pt;
+    font-weight: bolder;
+ }
+.price-steam{
+    color: grey;
+    font-size: 10pt;
+}
+
+.card-header {
+    padding: 10px;
+    border: 0px;
+
+ }
+.btn-add-to-cart{
+    background-color: #367ca1;
+    width: 100%;
+    border: 0px;
+
+ }
+.delivery-tag {
+    display: inline-block;
+    color: #37ff89;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 0.8em;
+     top: 10px;
+    left: 10px;
+}
+
+.product-image {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+}
+
+.card-body {
+     padding: 15px;
+}
+
+.product-name {
+    font-size: 100%;
+    color: white;
+    font-weight: bolder;
+}
+
+.product-desc, .product-condition {
+    font-size: 0.9em;
+    color: #ccc;
+}
+
+ 
+.progress-number {
+    position: absolute;
+    right: 5px;
+    top: 1px;
+    color: white;
+    font-size: 0.8em;
+}
+
+.add-to-cart {
+    width: 80%;
+    margin-top: 10px;
+}
+
+#nome-usuario{
+    font-size: 10pt;
+}
+.nameUser{
+    font-size: 10pt;
+}
+
+ 
+/* END BASE */
+
+/* MODAL */
+
+     /* Estilos para o modal e overlay */
+     .overlay {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.8); /* Overlay em 80% preto */
+        z-index: 1000;
+    }
+
+  .modal {
+        display: none;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 400px;
+        background-color: #050d23;
+        text-align: center;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        z-index: 1001;
+    }
+
+    .modal-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .close-btn {
+        cursor: pointer;
+        font-size: 20px;
+        font-weight: bold;
+        background: none;
+        border: none;
+    }
+
+    .modal-body {
+        margin-top: 10px;
+    }
+
+    .modal-body input {
+        width: 100%;
+        padding: 10px;
+        margin: 10px 0;
+    }
+
+    .update-btn {
+        padding: 10px;
+        width: 100%;
+        background-color: #00ced4;
+        color: white;
+        border: none;
+        cursor: pointer;
+        border-radius: 15px;
+    }
+
+    .update-btn:hover {
+        background-color: #218838;
+    }
+    

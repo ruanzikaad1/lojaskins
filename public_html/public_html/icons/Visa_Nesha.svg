@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="54" height="27" viewBox="0 0 54 27">
+  <defs>
+    <linearGradient id="linear-gradient" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#241f5d"/>
+      <stop offset="1" stop-color="#034e9f"/>
+    </linearGradient>
+  </defs>
+  <g id="Grupo_61" data-name="Grupo 61" transform="translate(0.209)">
+    <rect id="Retângulo_94" data-name="Retângulo 94" width="54" height="27" rx="2" transform="translate(-0.209 0)" fill="#fff"/>
+    <path id="Caminho_88" data-name="Caminho 88" d="M1253.841,136.012l-5.595,13.35H1244.6l-2.753-10.654a1.466,1.466,0,0,0-.821-1.173,14.4,14.4,0,0,0-3.407-1.135l.081-.387h5.876a1.61,1.61,0,0,1,1.593,1.36l1.453,7.726,3.6-9.086Zm14.3,8.991c.016-3.523-4.871-3.717-4.837-5.291.011-.48.466-.988,1.464-1.119a6.53,6.53,0,0,1,3.4.6l.607-2.83a9.269,9.269,0,0,0-3.231-.592c-3.412,0-5.816,1.814-5.834,4.412-.023,1.922,1.714,2.994,3.023,3.633,1.345.654,1.8,1.074,1.791,1.659-.011.9-1.073,1.291-2.067,1.306a7.221,7.221,0,0,1-3.547-.843l-.626,2.925a10.446,10.446,0,0,0,3.84.71c3.628,0,6-1.792,6.012-4.568m9.014,4.359h3.194l-2.788-13.35h-2.948a1.571,1.571,0,0,0-1.47.979l-5.182,12.371h3.625l.721-2h4.43Zm-3.853-4.73,1.818-5.012,1.046,5.012Zm-14.53-8.62-2.855,13.35h-3.454l2.857-13.35Z" transform="translate(-1231.891 -129.122)" fill="url(#linear-gradient)"/>
+  </g>
+</svg>
